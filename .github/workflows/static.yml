@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: node.js
-        run: actions/setup-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: 23.x
       - name: install fewu
