@@ -6,3 +6,4 @@ test.js
 node_modules
 _themes/
 public/
+package-lock.json
