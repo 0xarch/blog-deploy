@@ -41,6 +41,8 @@ jobs:
         run: npm i -g fewu
       - name: pull dependencies
         run: npm i
+      - name: pull theme
+        run: git clone https://github.com/0xarch/fewu-theme-neo _themes/Neo
       - name: build
         run: fewu
       - name: --Setup Pages
