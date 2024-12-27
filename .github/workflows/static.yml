@@ -29,6 +29,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: show environment
+        run: ls -al .
       - name: node.js
         uses: actions/setup-node@v4
         with:
