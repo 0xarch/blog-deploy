@@ -1,0 +1,186 @@
+{
+    "general": {
+        "lang": "zh_CN",
+        "post-directory": "source/posts",
+        "public-directory": "public"
+    },
+    "user": {
+        "name": "葱投",
+        "url": "https://github.com/0xarch",
+        "avatar": "https://cdn.jsdelivr.net/gh/0xarch/0xarch.github.io/resources/avatar.webp",
+        "data": {
+            "copyright": "自豪地由 Fewu 驱动，使用 Neo 主题. 2023 - 2024 0xarch 及 Soloev, 保留所有权利. 对于所有本站发布的文章，默认使用 Creative Commons BY-NC-SA 4.0 许可.",
+            "logo": "葱投的",
+            "contact": {
+                "[Matrix] Moz": "https://matrix.to/#/#solo_esta_vez:mozilla.org",
+                "[Matrix] Fedora": "https://matrix.to/#/#solo_esta_vez:fedora.im",
+                "Outlook": "mailto:alanqa-ops@outlook.com",
+                "GMail": "mailto:mulzixi@gmail.com"
+            },
+            "socialLinks": {
+                "Bilibili": {
+                    "url": "https://space.bilibili.com/582594431",
+                    "fa-icon": "fa-brands fa-bilibili"
+                },
+                "Github": {
+                    "url": "https://github.com/0xarch",
+                    "fa-icon": "fa-brands fa-github"
+                },
+                "X(Twitter)": {
+                    "url": "https://x.com/mulzionion",
+                    "fa-icon": "fa-brands fa-x-twitter"
+                }
+            },
+            "friendLinks": {
+                "Wyz666": "https://wangyuzhen666.github.io",
+                "泠熙": "https://lingxi9374.github.io",
+                "218": "https://yuanshen.dev",
+                "?": "https://genshinimpact.net"
+            },
+            "announcement": "本博客随时可能发生包括爆炸在内的一系列奇异事件, 请勿惊慌!"
+        }
+    },
+    "feature": {
+        "enable": [
+            "fewu:path/url/autoRoot",
+            "fewu:path/flat",
+            "fewu:path/local/noSuffix",
+            "markdown:HTMLMinifier",
+            "markdown:markedExtras"
+        ],
+        "markdown": {
+            "markedExtras": [
+                "marked-extended-tables",
+                "marked-footnote",
+                "marked-admonition"
+            ]
+        }
+    },
+    "module": {
+        "enable": [
+            "sitemap",
+            "rss",
+            "extra_files",
+            "search"
+        ],
+        "config": {
+            "sitemap": {
+                "type": "xml",
+                "name": "sitemap.xml"
+            },
+            "rss": {
+                "title": "0xarch's BLOG",
+                "description": "Get our new blogs through RSS."
+            },
+            "extra_files": {
+                "list": [
+                    "README.md",
+                    "tools",
+                    "demos"
+                ]
+            }
+        }
+    },
+    "default": {
+        "introduction": "作者没有为这篇文章写前言。  分类：{{category}}  标签：{{tags}}"
+    },
+    "website": {
+        "URL": "https://0xarch.github.io/"
+    },
+    "language": "zh-CN",
+    "theme": {
+        "name": "Neo",
+        "options": {
+            "enableAdmonitionCSS": true,
+            "useDefaultCopyrightText": false,
+            "extraNavigations": [
+                [
+                    "/tools/",
+                    "工具"
+                ],
+                [
+                    "/demos/",
+                    "Demo"
+                ]
+            ]
+        },
+        "title": {
+            "separator": "::",
+            "function": "",
+            "read": "文章",
+            "index": "Hello! oxArch"
+        }
+    },
+    "modules": {
+        "enabled": [
+            "sitemap",
+            "rss",
+            "extra_files",
+            "search"
+        ],
+        "sitemap": {
+            "type": "xml",
+            "name": "sitemap.xml"
+        },
+        "rss": {
+            "title": "",
+            "description": ""
+        },
+        "extra_files": {
+            "list": [
+                "README.md",
+                "tools",
+                "demos",
+                ".nojekyll",
+                "smartquestion.html"
+            ]
+        }
+    },
+    "excluded_posts": [
+        "about.md",
+        "news.md",
+        "links.md",
+        "template.md",
+        "js/base-javascript.md",
+        "js.~template.md"
+    ],
+    "enabled-features": [
+        "@disabled path/flatten",
+        "path/auto-detect-root",
+        "path/no-md-suffix",
+        "generator/use-minifier",
+        "generator/allow-custom-marked-extension",
+	    "generator/copy-next-image"
+    ],
+    "feature-option": {
+        "generator/allow-custom-marked-extension": {
+            "extensions": [
+                "marked-extended-tables",
+                "marked-footnote",
+                "marked-admonition"
+            ]
+        }
+    },
+    "enabled-modules": [
+        "sitemap",
+        "rss",
+        "extra_files",
+        "search"
+    ],
+    "module-option": {
+
+    },
+    "directories": {
+        "post": "posts",
+        "public": "public",
+        "resource": "resources"
+    },
+    "custom-data": {
+        "gitalk": {
+            "clientID": "160886aaa4510c613f1a",
+            "clientSecret": "e82e14f3759fb600bdf7afab5fd424d12a2250c1",
+            "repo": "suchathing",
+            "owner": "0xarch"
+        }
+    }
+}
